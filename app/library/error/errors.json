@@ -1,0 +1,11 @@
+{
+    "400": {
+        "10": "The provided URL does not match our expectations."
+    },
+    "404": {
+        "10": "The requested resource could not be found."
+    },
+    "500": {
+        "10": "An unexpected error has occurred, we are on it!"
+    }
+}
