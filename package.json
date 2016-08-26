@@ -1,41 +1,45 @@
 {
-  "name": "aBird.co",
-  "version": "0.1.0",
-  "description": "aBird.co - Headless phantom browser for URL screen shots.",
-  "keywords": [],
-  "author": {
-    "name": "Stefan Aichholzer",
-    "email": "theaichholzer@gmail.com",
-    "url": "http://www.abird.co"
-  },
-  "homepage": "http://www.abird.co",
-  "engines": {
-    "node": "6.2.x"
-  },
-  "dependencies": {
-    "body-parser": "^1.4.3",
-    "co": "^4.6.0",
-    "compression": "^1.0.8",
-    "express": "^4.7.2",
-    "jayschema": "^0.3.1",
-    "node-uuid": "^1.4.7",
-    "phantom": "^2.1.19",
-    "serve-favicon": "^2.1.5",
-    "validator": "^5.5.0"
-  },
-  "devDependencies": {
-    "dotenv": "^2.0.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-jscs": "^3.0.1",
-    "grunt-nodemon": "^0.4.2",
-    "jscs": "^3.0.7",
-    "jshint": "^2.9.3"
-  },
-  "bundleDependencies": [],
-  "private": false,
-  "main": "app/api.js",
-  "scripts": {
-    "start": "node app/"
-  }
+    "name": "aBird.co",
+    "version": "0.1.0",
+    "description": "The aBird.co headless phantom browser for URL screen shots.",
+    "keywords": [],
+    "author": {
+        "name": "Stefan Aichholzer",
+        "email": "theaichholzer@gmail.com",
+        "url": "http://www.abird.co"
+    },
+    "homepage": "http://www.abird.co",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Analogbird/aBird.co.phantom.git"
+    },
+    "engines": {
+        "node": "6.2.x"
+    },
+    "dependencies": {
+        "body-parser": "^1.4.3",
+        "co": "^4.6.0",
+        "compression": "^1.0.8",
+        "express": "^4.7.2",
+        "jayschema": "^0.3.1",
+        "node-uuid": "^1.4.7",
+        "phantom": "^2.1.19",
+        "serve-favicon": "^2.1.5",
+        "validator": "^5.5.0"
+    },
+    "devDependencies": {
+        "dotenv": "^2.0.0",
+        "grunt": "^1.0.1",
+        "grunt-contrib-jshint": "^1.0.0",
+        "grunt-jscs": "^3.0.1",
+        "grunt-nodemon": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.3"
+    },
+    "bundleDependencies": [],
+    "private": false,
+    "main": "app/index.js",
+    "scripts": {
+        "start": "node app/"
+    }
 }
