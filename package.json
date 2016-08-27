@@ -2,11 +2,18 @@
     "name": "aBird.co",
     "version": "0.1.0",
     "description": "The aBird.co headless phantom browser for URL screen shots.",
-    "keywords": [],
+    "keywords": [
+        "shortening",
+        "awesome",
+        "fly",
+        "light",
+        "shortener",
+        "url"
+    ],
     "author": {
         "name": "Stefan Aichholzer",
         "email": "theaichholzer@gmail.com",
-        "url": "http://www.abird.co"
+        "url": "https://github.com/aichholzer"
     },
     "homepage": "http://www.abird.co",
     "repository": {
